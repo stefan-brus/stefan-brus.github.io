@@ -604,7 +604,7 @@ class SavingsAccount {
         this.balance += this.balance * this.interest;
     }
 }
-const VERSION = 6;
+const VERSION = 7;
 class AvailableJobsView {
 
     constructor(parentElement, updater, onHire) {
