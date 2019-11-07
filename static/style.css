@@ -1,5 +1,17 @@
 /* Layout */
 
+#left-container {
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 10px;
+}
+
+#right-container {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: top;
+}
+
 #stats-layout {
     display: inline-block;
     margin-right: 10px;
@@ -11,6 +23,14 @@
 }
 
 /* Views */
+
+.loan-view {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
 
 #job-name-view {
     font-weight: bold;
@@ -52,7 +72,15 @@
 /* Components */
 
 .button {
+    display: inline-block;
     border: 1px solid black;
     padding: 5px;
+    margin: 5px;
     text-align: center;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
